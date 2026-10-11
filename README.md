@@ -24,7 +24,7 @@ Outstanding borrowing at +180 days (2026-08-17), as % of the pre-campaign baseli
 2. **Morpho's 20× lift mostly unwound.** It retained about 5% of its campaign-end uplift. Arbitrum borrowing ended at 2× baseline, but Morpho on Base grew 2.3× without DRIP over the same period.
 3. **Aave and Dolomite moved with the market.** Compound V3 on Arbitrum, which was not in DRIP, fell to 32% of baseline. Aave on Arbitrum (36%) is close to Aave on Ethereum (40%).
 4. **Euler on Arbitrum fell much faster than Euler elsewhere** (2% vs 27% on Ethereum).
-5. **Silo V2 fell on both chains.** Silo v3 launched in March 2026, so this is likely a version migration, not a DRIP effect.
+5. **Silo V2 fell on both chains.** Silo v3 launched in 2026, but DefiLlama shows almost no borrowing on v3 (under $2.1M on any chain, $0 on Arbitrum as of 2026-10-11). So a move to v3 does not explain the drop.
 
 ## Method
 
@@ -57,7 +57,7 @@ On macOS or Linux, use `.venv/bin/python`. The script downloads fresh data, so n
 
 - **Protocol-level, not market-level.** The numbers cover all markets of a protocol on a chain, not only DRIP-eligible markets. As a check, the Morpho figure here (about 5% of uplift retained) is close to the market-level study (7.7% USDC, 11.3% USD₮0).
 - **USD terms.** ETH fell by more than 50% during the season. Most borrowing is in stablecoins, but lower collateral prices also reduce how much people can borrow.
-- **Observational, not causal.** Other events affected these protocols. These include the Stream Finance collapse in November 2025, Silo v3 (March 2026), Dolomite's WLFI/USD1 market on Ethereum (January 2026) and Fluid DEX on Arbitrum (from May 2026).
+- **Observational, not causal.** Other events affected these protocols. These include the Stream Finance collapse in November 2025, Dolomite's WLFI/USD1 market on Ethereum (January 2026) and Fluid DEX on Arbitrum (from May 2026).
 - **No wallet cohorts.** This check does not show whether the same users stayed.
 - DefiLlama data can be revised. Raw files are cached in `data/raw/` on the run date.
 
